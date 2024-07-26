@@ -1,0 +1,65 @@
+.welcomepage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:10px solid black; */
+    width: 100%;
+}
+.welcome-left{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 600px;
+    /* border: 5px solid black ; */
+    margin: 10px;
+}
+.welcome-right{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* border: 5px solid black; */
+    width: 35vw;
+    margin-left: 30px;
+    /* margin: 10px; */
+}
+.welcome-heading{
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0%;
+}
+.welcome-author{
+    font-size: 20px;
+    font-weight: 600;
+}
+.welcome-img{
+    width: 920px;
+    height: 500px;
+    border-radius: 00px;
+}
+
+.welcome-right-head{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 0px;
+    text-decoration: none;
+    color: rgb(190, 222, 192);
+}
+.welcome-right-head:hover{
+    color: antiquewhite;
+}
+.welcome-right-content{
+    font-size: 30px;
+    margin: 5px;
+
+}
+.welcome-right-author{
+    font-size: 25px;
+    margin: 5px;
+    text-decoration: initial;
+    font-style: italic;
+}
+.welcome-right2, .welcome-right1, .welcome-right3, .welcome-right4, .welcome-right5{
+    margin: 10px;
+}

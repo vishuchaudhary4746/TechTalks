@@ -1,0 +1,128 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Blog Page Styles */
+  
+  .blog-page {
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Blog Header Styles */
+  
+  .blog-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .blog-header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blog-header p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  /* Blog Content Styles */
+  
+  .blog-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .blog-post {
+    width: calc(50% - 20px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .blog-post h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2ecc71;
+  }
+  
+  .blog-post p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .post-title {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .post-date {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .post-excerpt {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .read-more {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .read-more:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    .blog-post {
+      width: calc(100% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .blog-page {
+      margin: 20px auto;
+    }
+    .blog-header {
+      padding: 10px;
+    }
+    .blog-post {
+      margin: 10px;
+      padding: 10px;
+    }
+  }
