@@ -9,7 +9,6 @@ import Startups from './Pages/Startups/Startup.jsx';
 function App() {
   return (
     <Router>
-      {/* <Home/> */}
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Home" element={<Home/>} />

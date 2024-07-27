@@ -24,8 +24,8 @@
     /* margin: 10px; */
 }
 .welcome-heading{
-    font-size: 55px;
-    font-weight: bold;
+    font-size: 60px;
+    font-weight: 700;
     margin: 0%;
 }
 .welcome-author{
@@ -44,10 +44,10 @@
     margin: 5px;
     padding: 0px;
     text-decoration: none;
-    color: rgb(190, 222, 192);
+    color: white;
 }
 .welcome-right-head:hover{
-    color: antiquewhite;
+    color: #0FA4AF;
 }
 .welcome-right-content{
     font-size: 30px;

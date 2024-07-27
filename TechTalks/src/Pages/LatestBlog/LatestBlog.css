@@ -1,61 +1,71 @@
 .latest-blog-page {
     font-family: 'Arial', sans-serif;
     color: #333;
-    max-width: 800px;
+    max-width: 100vw;
     margin: 0 auto;
     padding: 20px;
+    background: transparent;
   }
   
-  .blog-header {
+  .latest-blog-header {
     text-align: center;
     margin-bottom: 40px;
+    color: #3E362E;
+    background: transparent;
   }
   
-  .blog-header h1 {
-    font-size: 2.5em;
+  .latest-blog-header h1 {
+    font-size: 65px;
     margin-bottom: 10px;
   }
   
-  .blog-header p {
-    font-size: 1.2em;
-    color: #777;
+  .latest-blog-header p {
+    font-size: 25px;
+    color: #3E362E;
   }
   
-  .blog-list {
+  .latest-blog-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 100vw;
   }
-  
+/*   
   .blog-post {
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    transition: box-shadow 0.3s;
-  }
+    background: transparent;
+  } */
+ .latest-blog-post{
+  background: transparent;
+  width: 1500px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding:20px;
+ }
   
-  .blog-post:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .post-title {
-    font-size: 1.8em;
+  .latest-post-title {
+    font-size: 2.5em;
     margin-bottom: 10px;
+    color: white;
+    /* display: flex;
+    justify-content: center; */
   }
   
-  .post-date {
+  .latest-post-date {
     font-size: 0.9em;
-    color: #999;
+    color: white;
     margin-bottom: 15px;
   }
   
-  .post-excerpt {
-    font-size: 1.1em;
+  .latest-post-excerpt {
+    font-size: 1.5em;
     margin-bottom: 15px;
+    color: aliceblue;
   }
   
-  .read-more {
+  .latest-read-more {
     background-color: #007bff;
     color: white;
     padding: 10px 15px;
@@ -63,9 +73,10 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    width: 50vw;
   }
   
-  .read-more:hover {
+  .latest-read-more:hover {
     background-color: #0056b3;
   }
   

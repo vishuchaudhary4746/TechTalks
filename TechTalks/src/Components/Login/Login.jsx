@@ -8,16 +8,16 @@ function Login() {
         <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
           <div className="card border-0 shadow rounded-3 my-5">
             <div className="card-body p-4 p-sm-5">
-              <h5 className="card-title text-center mb-5 fw-light fs-5">Sign In</h5>
+              <h1 className="card-title ">Sign In</h1>
               <form>
-                <div className="form-floating mb-3">
+                <div className="form-floating">
                   <input
                     type="email"
                     className="form-control"
                     id="floatingInput"
                     placeholder="name@example.com"
                   />
-                  <label htmlFor="floatingInput">Email address</label>
+                  <label className='floatingtag' htmlFor="floatingInput">Email address</label>
                 </div>
                 <div className="form-floating mb-3">
                   <input
@@ -26,7 +26,7 @@ function Login() {
                     id="floatingPassword"
                     placeholder="Password"
                   />
-                  <label htmlFor="floatingPassword">Password</label>
+                  <label className='floatingtag' htmlFor="floatingPassword">Password</label>
                 </div>
 
                 <div className="form-check mb-3">

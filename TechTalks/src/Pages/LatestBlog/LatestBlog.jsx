@@ -22,18 +22,18 @@ const LatestBlogPage = () => {
 
   return (
     <div className="latest-blog-page">
-      <header className="blog-header">
+      <header className="latest-blog-header">
         <h1>Latest Blog Posts</h1>
         <p>Stay updated with the newest articles</p>
       </header>
 
-      <main className="blog-list">
+      <main className="latest-blog-list">
         {blogs.map((blog, index) => (
-          <article key={index} className="blog-post">
-            <h2 className="post-title">{blog.title}</h2>
-            <p className="post-date">{blog.date}</p>
-            <p className="post-excerpt">{blog.excerpt}</p>
-            <button className="read-more">Read More</button>
+          <article key={index} className="latest-blog-post">
+            <h2 className="latest-post-title">{blog.title}</h2>
+            <p className="latest-post-date">{blog.date}</p>
+            <p className="latest-post-excerpt">{blog.excerpt}</p>
+            <button className="latest-read-more">Read More</button>
           </article>
         ))}
       </main>

@@ -7,18 +7,18 @@ const Footer = () => {
       <div className="footer-content">
         <div className="contact-info">
           <h2>Contact Us</h2>
-          <p>Email: info@techtalks.com</p>
-          <p>Phone: +1 234 567 890</p>
+          <p className='footer-p'>Email: info@techtalks.com</p>
+          <p className='footer-p'>Phone: +1 234 567 890</p>
         </div>
         <div className="address-info">
           <h2>Address</h2>
-          <p>123 Tech Street</p>
-          <p>Innovation City, CA 90210</p>
-          <p>USA</p>
+          <p className='footer-p'>123 Tech Street</p>
+          <p className='footer-p'>Innovation City, CA 90210</p>
+          <p className='footer-p'>USA</p>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 TechTalks. All rights reserved.</p>
+        <p className='footer-p'>&copy; 2024 TechTalks. All rights reserved.</p>
       </div>
     </footer>
   );
